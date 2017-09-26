@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.page-container{
+	margin: 0 auto;
+	text-align: center;
+}
+.page-container div{
+	min-height: 300px;
+	min-width: 300px;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	vertical-align: top;
+}
+.page-container div img{
+	width: 70px;
+	margin: 10px;
+	cursor: move;
+}
+.drag-container{
+	
+	background-color: #ffdcdc;
+}
+.drop-container{
+	
+	background-color: #dcffff;
+}
+.drop-container.over{
+	border: 2px dashed black;
+}
